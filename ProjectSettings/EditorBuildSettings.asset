@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Ilumisoft/Skill Drive/Scenes/Menu.unity
-    guid: b4da4660c40c9564fb874f7cd07ff210
+    path: Assets/Bootstrap/Scenes/Bootstrap.unity
+    guid: cb7e2a3bae8cd3d45ac6ea36066d0903
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 158eadc51ff41c3458080a8fe2bff23c,
       type: 2}

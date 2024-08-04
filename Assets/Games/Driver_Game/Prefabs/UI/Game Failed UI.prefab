@@ -229,6 +229,7 @@ GameObject:
   - component: {fileID: 8988149821299941343}
   - component: {fileID: 8988149821299941340}
   - component: {fileID: 8988149821299941341}
+  - component: {fileID: 8522013532644516002}
   m_Layer: 5
   m_Name: Retry Button
   m_TagString: Untagged
@@ -337,7 +338,36 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8988149821299941340}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8522013532644516002}
+        m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &8522013532644516002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8988149821299941315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5782e6ce35dbf2c41bef0c62205d4669, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scene:
+    m_AssetGUID: 4409a0dfd747f124caf596c1c9dfed2c
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
 --- !u!1 &8988149821752529047
 GameObject:
   m_ObjectHideFlags: 0
@@ -784,6 +814,7 @@ GameObject:
   - component: {fileID: 8988149822366054629}
   - component: {fileID: 8988149822366054634}
   - component: {fileID: 8988149822366054635}
+  - component: {fileID: 1701055728996655588}
   m_Layer: 5
   m_Name: Exit Button
   m_TagString: Untagged
@@ -892,7 +923,36 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8988149822366054634}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1701055728996655588}
+        m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1701055728996655588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8988149822366054633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5782e6ce35dbf2c41bef0c62205d4669, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scene:
+    m_AssetGUID: cb7e2a3bae8cd3d45ac6ea36066d0903
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
 --- !u!1 &9165064516173042590
 GameObject:
   m_ObjectHideFlags: 0

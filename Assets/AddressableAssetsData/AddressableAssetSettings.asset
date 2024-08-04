@@ -15,7 +15,7 @@ MonoBehaviour:
   m_DefaultGroup: 52d459943c4a86848af995823603e53c
   m_currentHash:
     serializedVersion: 2
-    Hash: 00000000000000000000000000000000
+    Hash: 71f6b83c855a04c62dfae290c053d181
   m_OptimizeCatalogSize: 0
   m_BuildRemoteCatalog: 1
   m_BundleLocalCatalog: 0
@@ -48,6 +48,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 80a49237bb803234998fd1272db0e8b9, type: 2}
   - {fileID: 11400000, guid: dfc1cc258f7660f488299d21a51f588d, type: 2}
   - {fileID: 11400000, guid: 68b8990179619c24b957e6186249be7e, type: 2}
+  - {fileID: 11400000, guid: 10ef94d86194569489d2a8cf28068354, type: 2}
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
     m_CleanupStreamingAssetsAfterBuilds: 1
@@ -66,11 +67,11 @@ MonoBehaviour:
       - m_Id: 874a26d276282334a9a8d446a3987cb6
         m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
       - m_Id: 36d7e42aab3990546a02201454c22cf8
-        m_Value: CCDBuildData/4dd31a81-e5ab-44f2-95bb-97bc4704d471/974785ef-c9f4-4996-afe0-23ee6b03893b/latest
+        m_Value: CCDBuildData/ManagedEnvironment/ManagedBucket/ManagedBadge
       - m_Id: f707a7a9f2268c04aa671a92c4224f6f
-        m_Value: https://2e56f5ec-0aab-443b-8e19-be57f372e594.client-api.unity3dusercontent.com/client_api/v1/environments/development/buckets/974785ef-c9f4-4996-afe0-23ee6b03893b/release_by_badge/latest/entry_by_path/content/?path=
+        m_Value: https://2e56f5ec-0aab-443b-8e19-be57f372e594.client-api.unity3dusercontent.com/client_api/v1/environments/{CcdManager.EnvironmentName}/buckets/{CcdManager.BucketId}/release_by_badge/{CcdManager.Badge}/entry_by_path/content/?path=
       - m_Id: 7e4397f947e1e87499d6ed2032115cea
-        m_Value: development
+        m_Value: production
     m_ProfileEntryNames:
     - m_Id: f8874b772cacf424ba7cf58e7d9979dc
       m_Name: BuildTarget
@@ -94,6 +95,7 @@ MonoBehaviour:
   m_LabelTable:
     m_LabelNames:
     - default
+    - mini_game
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: 1a95c097bcb5a8148aa0c545e401746f, type: 2}
@@ -112,11 +114,12 @@ MonoBehaviour:
     m_HostingServiceInfos: []
     m_Settings: {fileID: 11400000}
     m_NextInstanceId: 0
-    m_RegisteredServiceTypeRefs: []
+    m_RegisteredServiceTypeRefs:
+    - UnityEditor.AddressableAssets.HostingServices.HttpHostingService, Unity.Addressables.Editor
     m_PingTimeoutInMilliseconds: 5000
   m_CcdManagedData:
-    EnvironmentId: 
-    EnvironmentName: 
-    BucketId: 
-    Badge: 
+    EnvironmentId: 51074fb2-d3cc-4e77-a340-0d96bf793c87
+    EnvironmentName: production
+    BucketId: aac8f300-22b5-4ba3-b4e0-f1565a3d535c
+    Badge: latest
     State: 0

@@ -33,6 +33,24 @@ MonoBehaviour:
       m_Value: https://2e56f5ec-0aab-443b-8e19-be57f372e594.client-api.unity3dusercontent.com/client_api/v1/environments/{CcdManager.EnvironmentName}/buckets/{CcdManager.BucketId}/release_by_badge/{CcdManager.Badge}/entry_by_path/content/?path=
     - m_Suffix: EnvironmentName
       m_Value: production
+  - m_GroupTypePrefix: Automatic
+    m_Variables:
+    - m_Suffix: CcdBucketName
+      m_Value: StandaloneWindows64
+    - m_Suffix: CcdBucketId
+      m_Value: aac8f300-22b5-4ba3-b4e0-f1565a3d535c
+    - m_Suffix: CcdBadgeName
+      m_Value: latest
+    - m_Suffix: PromoteOnly
+      m_Value: False
+    - m_Suffix: Environmentname
+      m_Value: production
+    - m_Suffix: Environmentid
+      m_Value: 51074fb2-d3cc-4e77-a340-0d96bf793c87
+    - m_Suffix: BuildPath
+      m_Value: CCDBuildData/51074fb2-d3cc-4e77-a340-0d96bf793c87/aac8f300-22b5-4ba3-b4e0-f1565a3d535c/latest
+    - m_Suffix: LoadPath
+      m_Value: https://2e56f5ec-0aab-443b-8e19-be57f372e594.client-api.unity3dusercontent.com/client_api/v1/environments/production/buckets/aac8f300-22b5-4ba3-b4e0-f1565a3d535c/release_by_badge/latest/entry_by_path/content/?path=
   - m_GroupTypePrefix: CCD.2e56f5ec-0aab-443b-8e19-be57f372e594.4dd31a81-e5ab-44f2-95bb-97bc4704d471.974785ef-c9f4-4996-afe0-23ee6b03893b.latest
     m_Variables:
     - m_Suffix: CcdBucketName
