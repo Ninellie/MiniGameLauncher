@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5834b5087d578d24c926ce20cd31e6d6, type: 3}
-  m_Name: Drive_Game_ContentUpdateGroupSchema
+  m_Name: Driver_Game_ContentUpdateGroupSchema
   m_EditorClassIdentifier: 
-  m_Group: {fileID: 11400000, guid: 10ef94d86194569489d2a8cf28068354, type: 2}
+  m_Group: {fileID: 11400000, guid: 500d5f5a803e3be44ad2e7cadeabb491, type: 2}
   m_StaticContent: 0

@@ -18,19 +18,19 @@ MonoBehaviour:
   m_GUID: 52d459943c4a86848af995823603e53c
   m_SerializeEntries:
   - m_GUID: f9395333665fb4541a8f7ccd7d22b106
-    m_Address: Assets/Bootstrap/Prefabs/Back Button.prefab
+    m_Address: Back Button
     m_ReadOnly: 0
     m_SerializedLabels:
     - default
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: cc4208ead59019a4ba874a0c3bcf6526
-    m_Address: Assets/Bootstrap/Prefabs/Minigame.prefab
+    m_Address: Minigame
     m_ReadOnly: 0
     m_SerializedLabels:
     - default
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7f62c93d53bda4a4eaf661e407309d35
-    m_Address: Assets/Bootstrap/Resources_moved/MiniGames.asset
+    m_Address: MiniGames
     m_ReadOnly: 0
     m_SerializedLabels:
     - default

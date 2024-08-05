@@ -20,8 +20,7 @@ MonoBehaviour:
   - m_GUID: d036a2b3330805944be8cb1edd9bfbd8
     m_Address: Clicker_Game
     m_ReadOnly: 0
-    m_SerializedLabels:
-    - mini_game
+    m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 4a3b40141c58c4e45a7b7cc0b08c113a, type: 2}

@@ -14,14 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   list:
   - title: Clicker Game
-    key: Clicker_Game/Scenes/Clicker_Game.unity
+    key: Clicker_Game
     gameScene:
       m_AssetGUID: a76e9f1eaf3723f48a3228ee205eb9b2
       m_SubObjectName: 
       m_SubObjectType: 
       m_EditorAssetChanged: 0
   - title: Driver game
-    key: Drive_Game/Scenes/Driver_Game.unity
+    key: Driver_Game
     gameScene:
       m_AssetGUID: 4409a0dfd747f124caf596c1c9dfed2c
       m_SubObjectName: 

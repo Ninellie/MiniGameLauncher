@@ -6,12 +6,12 @@ using UnityEngine.AddressableAssets;
 public class MiniGameData
 {
     [SerializeField] private string title;
-    [SerializeField] private string key;
+    //[SerializeField] private string key;
     [SerializeField] private AssetReference gameScene;
 
     public string Title => title;
     
-    public string Key => key;
+    //public string Key => key;
     
     public AssetReference GameScene => gameScene;
 }

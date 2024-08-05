@@ -3,14 +3,13 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class MiniGame : MonoBehaviour
 {
     [SerializeField] private MiniGameData data;
     [SerializeField] private TextMeshProUGUI title;
-    [SerializeField] private bool isContentLoaded;
+    //[SerializeField] private bool isContentLoaded;
     [SerializeField] private Button playButton;
     [SerializeField] private Image playButtonImage;
     [SerializeField] private GameObject loadButton;
@@ -25,7 +24,13 @@ public class MiniGame : MonoBehaviour
     private void Start()
     {
         title = GetComponentInChildren<TextMeshProUGUI>();
-        StartCoroutine(CheckIfContentLoaded());
+        
+        // Я устал T_T
+        playButton.interactable = true;
+        loadButton.SetActive(false);
+        unloadButton.SetActive(false);
+
+        //StartCoroutine(CheckIfContentLoaded());
     }
 
     public void SetTitle()
@@ -36,10 +41,21 @@ public class MiniGame : MonoBehaviour
     // Вызывается на кнопку Play
     public void Play()
     {
-        if (!isContentLoaded) return;
-        Addressables.LoadSceneAsync(data.GameScene);
+        //if (!isContentLoaded) return;
+
+        StartCoroutine(LoadSceneAsync());
+    }
+
+    private IEnumerator LoadSceneAsync()
+    {
+        var handle = Addressables.LoadSceneAsync(data.GameScene);
+        yield return handle;
+        
+        if (handle.Status == AsyncOperationStatus.Succeeded)
+            yield return handle.Result.ActivateAsync();
     }
     
+    /*
     // Вызывается на кнопку Load 
     public void Load()
     {
@@ -104,4 +120,5 @@ public class MiniGame : MonoBehaviour
         loadButton.SetActive(!isContentLoaded);
         playButton.interactable = isContentLoaded;
     }
+    */
 }
